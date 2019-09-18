@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
 
-  const submit = document.querySelector("input[type='submit']");
+  const submit = document.querySelector("form#create-task-form");
   
-  submit.addEventListener("click", function(event){
+  submit.addEventListener("submit", function(event){
     event.preventDefault();
 
     let ourValue = document.querySelector("input#new-task-description").value
