@@ -6,7 +6,7 @@ need to manipulate before you write any code.
 
 Check out the [working demo][example]!
 
-## Learning Goals:
+## Learning Goals:.
 
 * Squelch a default action with `Event.preventDefault`
 
